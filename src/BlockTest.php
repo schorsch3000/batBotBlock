@@ -8,7 +8,6 @@
 
 namespace schorsch3000\botBlock;
 
-
 trait BlockTest
 {
 
