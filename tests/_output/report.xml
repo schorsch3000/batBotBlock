@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="unit" tests="6" assertions="7" failures="0" errors="0" time="0.063635">
+    <testcase name="testNoFalsePositive" class="BotBlockTest" file="/home/dicky/projects/batBotBlock/tests/unit/BotBlockTest.php" line="32" assertions="1" time="0.014268"/>
+    <testcase name="testBlockOnTrapPath" class="BotBlockTest" file="/home/dicky/projects/batBotBlock/tests/unit/BotBlockTest.php" line="47" assertions="1" time="0.010516"/>
+    <testcase name="testBlockOnPreviousTrapPath" class="BotBlockTest" file="/home/dicky/projects/batBotBlock/tests/unit/BotBlockTest.php" line="57" assertions="1" time="0.009061"/>
+    <testcase name="testCreateDefaultConfig" class="BotBlockTest" file="/home/dicky/projects/batBotBlock/tests/unit/BotBlockTest.php" line="70" assertions="1" time="0.008399"/>
+    <testcase name="testCleanupOldEntriesInline" class="BotBlockTest" file="/home/dicky/projects/batBotBlock/tests/unit/BotBlockTest.php" line="88" assertions="1" time="0.010271"/>
+    <testcase name="testCleanupOldEntries" class="BotBlockTest" file="/home/dicky/projects/batBotBlock/tests/unit/BotBlockTest.php" line="103" assertions="2" time="0.011120"/>
+  </testsuite>
+</testsuites>

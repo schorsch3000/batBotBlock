@@ -1,0 +1,343 @@
+<?php
+$coverage = new PHP_CodeCoverage;
+$coverage->setData(array (
+  '/home/dicky/projects/batBotBlock/src/BotBlock.php' => 
+  array (
+    13 => 
+    array (
+      0 => 'BotBlockTest::testNoFalsePositive',
+      1 => 'BotBlockTest::testBlockOnTrapPath',
+      2 => 'BotBlockTest::testBlockOnPreviousTrapPath',
+      3 => 'BotBlockTest::testCreateDefaultConfig',
+      4 => 'BotBlockTest::testCleanupOldEntriesInline',
+      5 => 'BotBlockTest::testCleanupOldEntries',
+    ),
+    14 => 
+    array (
+      0 => 'BotBlockTest::testCreateDefaultConfig',
+    ),
+    15 => 
+    array (
+      0 => 'BotBlockTest::testCreateDefaultConfig',
+    ),
+    17 => 
+    array (
+      0 => 'BotBlockTest::testNoFalsePositive',
+      1 => 'BotBlockTest::testBlockOnTrapPath',
+      2 => 'BotBlockTest::testBlockOnPreviousTrapPath',
+      3 => 'BotBlockTest::testCreateDefaultConfig',
+      4 => 'BotBlockTest::testCleanupOldEntriesInline',
+      5 => 'BotBlockTest::testCleanupOldEntries',
+    ),
+    18 => 
+    array (
+      0 => 'BotBlockTest::testNoFalsePositive',
+      1 => 'BotBlockTest::testBlockOnTrapPath',
+      2 => 'BotBlockTest::testBlockOnPreviousTrapPath',
+      3 => 'BotBlockTest::testCreateDefaultConfig',
+      4 => 'BotBlockTest::testCleanupOldEntriesInline',
+      5 => 'BotBlockTest::testCleanupOldEntries',
+    ),
+    19 => 
+    array (
+      0 => 'BotBlockTest::testNoFalsePositive',
+    ),
+    20 => 
+    array (
+      0 => 'BotBlockTest::testNoFalsePositive',
+    ),
+    21 => 
+    array (
+      0 => 'BotBlockTest::testNoFalsePositive',
+      1 => 'BotBlockTest::testBlockOnTrapPath',
+      2 => 'BotBlockTest::testBlockOnPreviousTrapPath',
+      3 => 'BotBlockTest::testCreateDefaultConfig',
+      4 => 'BotBlockTest::testCleanupOldEntriesInline',
+      5 => 'BotBlockTest::testCleanupOldEntries',
+    ),
+    22 => 
+    array (
+      0 => 'BotBlockTest::testNoFalsePositive',
+      1 => 'BotBlockTest::testBlockOnTrapPath',
+      2 => 'BotBlockTest::testBlockOnPreviousTrapPath',
+      3 => 'BotBlockTest::testCreateDefaultConfig',
+      4 => 'BotBlockTest::testCleanupOldEntriesInline',
+      5 => 'BotBlockTest::testCleanupOldEntries',
+    ),
+    26 => 
+    array (
+      0 => 'BotBlockTest::testNoFalsePositive',
+      1 => 'BotBlockTest::testBlockOnTrapPath',
+      2 => 'BotBlockTest::testBlockOnPreviousTrapPath',
+      3 => 'BotBlockTest::testCreateDefaultConfig',
+      4 => 'BotBlockTest::testCleanupOldEntriesInline',
+      5 => 'BotBlockTest::testCleanupOldEntries',
+    ),
+    27 => 
+    array (
+      0 => 'BotBlockTest::testNoFalsePositive',
+      1 => 'BotBlockTest::testBlockOnTrapPath',
+      2 => 'BotBlockTest::testBlockOnPreviousTrapPath',
+      3 => 'BotBlockTest::testCreateDefaultConfig',
+      4 => 'BotBlockTest::testCleanupOldEntriesInline',
+      5 => 'BotBlockTest::testCleanupOldEntries',
+    ),
+    28 => 
+    array (
+      0 => 'BotBlockTest::testBlockOnTrapPath',
+      1 => 'BotBlockTest::testBlockOnPreviousTrapPath',
+      2 => 'BotBlockTest::testCleanupOldEntriesInline',
+    ),
+    29 => 
+    array (
+      0 => 'BotBlockTest::testBlockOnTrapPath',
+      1 => 'BotBlockTest::testBlockOnPreviousTrapPath',
+      2 => 'BotBlockTest::testCleanupOldEntriesInline',
+    ),
+    30 => 
+    array (
+      0 => 'BotBlockTest::testNoFalsePositive',
+      1 => 'BotBlockTest::testBlockOnTrapPath',
+      2 => 'BotBlockTest::testBlockOnPreviousTrapPath',
+      3 => 'BotBlockTest::testCreateDefaultConfig',
+      4 => 'BotBlockTest::testCleanupOldEntriesInline',
+      5 => 'BotBlockTest::testCleanupOldEntries',
+    ),
+    31 => 
+    array (
+      0 => 'BotBlockTest::testBlockOnPreviousTrapPath',
+    ),
+    32 => 
+    array (
+      0 => 'BotBlockTest::testBlockOnPreviousTrapPath',
+    ),
+    33 => 
+    array (
+      0 => 'BotBlockTest::testNoFalsePositive',
+      1 => 'BotBlockTest::testBlockOnTrapPath',
+      2 => 'BotBlockTest::testBlockOnPreviousTrapPath',
+      3 => 'BotBlockTest::testCreateDefaultConfig',
+      4 => 'BotBlockTest::testCleanupOldEntriesInline',
+      5 => 'BotBlockTest::testCleanupOldEntries',
+    ),
+    37 => 
+    array (
+      0 => 'BotBlockTest::testBlockOnTrapPath',
+      1 => 'BotBlockTest::testBlockOnPreviousTrapPath',
+      2 => 'BotBlockTest::testCleanupOldEntriesInline',
+    ),
+    38 => 
+    array (
+      0 => 'BotBlockTest::testBlockOnTrapPath',
+      1 => 'BotBlockTest::testBlockOnPreviousTrapPath',
+      2 => 'BotBlockTest::testCleanupOldEntriesInline',
+    ),
+    43 => 
+    array (
+      0 => 'BotBlockTest::testBlockOnTrapPath',
+      1 => 'BotBlockTest::testBlockOnPreviousTrapPath',
+      2 => 'BotBlockTest::testCleanupOldEntriesInline',
+    ),
+    44 => 
+    array (
+      0 => 'BotBlockTest::testBlockOnTrapPath',
+      1 => 'BotBlockTest::testBlockOnPreviousTrapPath',
+      2 => 'BotBlockTest::testCleanupOldEntriesInline',
+    ),
+    45 => 
+    array (
+      0 => 'BotBlockTest::testBlockOnTrapPath',
+      1 => 'BotBlockTest::testBlockOnPreviousTrapPath',
+      2 => 'BotBlockTest::testCleanupOldEntriesInline',
+    ),
+    49 => 
+    array (
+      0 => 'BotBlockTest::testNoFalsePositive',
+      1 => 'BotBlockTest::testBlockOnPreviousTrapPath',
+      2 => 'BotBlockTest::testCreateDefaultConfig',
+      3 => 'BotBlockTest::testCleanupOldEntriesInline',
+      4 => 'BotBlockTest::testCleanupOldEntries',
+    ),
+    50 => 
+    array (
+      0 => 'BotBlockTest::testNoFalsePositive',
+      1 => 'BotBlockTest::testCreateDefaultConfig',
+      2 => 'BotBlockTest::testCleanupOldEntries',
+    ),
+    51 => NULL,
+    52 => 
+    array (
+      0 => 'BotBlockTest::testBlockOnPreviousTrapPath',
+      1 => 'BotBlockTest::testCleanupOldEntriesInline',
+    ),
+    53 => 
+    array (
+      0 => 'BotBlockTest::testBlockOnPreviousTrapPath',
+    ),
+    54 => NULL,
+    55 => 
+    array (
+      0 => 'BotBlockTest::testCleanupOldEntriesInline',
+    ),
+    56 => 
+    array (
+      0 => 'BotBlockTest::testCleanupOldEntriesInline',
+    ),
+    57 => 
+    array (
+      0 => 'BotBlockTest::testCleanupOldEntriesInline',
+    ),
+    58 => NULL,
+    62 => 
+    array (
+      0 => 'BotBlockTest::testNoFalsePositive',
+      1 => 'BotBlockTest::testBlockOnTrapPath',
+      2 => 'BotBlockTest::testBlockOnPreviousTrapPath',
+      3 => 'BotBlockTest::testCreateDefaultConfig',
+      4 => 'BotBlockTest::testCleanupOldEntriesInline',
+      5 => 'BotBlockTest::testCleanupOldEntries',
+    ),
+    63 => NULL,
+    67 => 
+    array (
+      0 => 'BotBlockTest::testNoFalsePositive',
+      1 => 'BotBlockTest::testBlockOnTrapPath',
+      2 => 'BotBlockTest::testBlockOnPreviousTrapPath',
+      3 => 'BotBlockTest::testCreateDefaultConfig',
+      4 => 'BotBlockTest::testCleanupOldEntriesInline',
+      5 => 'BotBlockTest::testCleanupOldEntries',
+    ),
+    68 => 
+    array (
+      0 => 'BotBlockTest::testCreateDefaultConfig',
+    ),
+    69 => 
+    array (
+      0 => 'BotBlockTest::testCreateDefaultConfig',
+    ),
+    70 => 
+    array (
+      0 => 'BotBlockTest::testCreateDefaultConfig',
+    ),
+    71 => 
+    array (
+      0 => 'BotBlockTest::testNoFalsePositive',
+      1 => 'BotBlockTest::testBlockOnTrapPath',
+      2 => 'BotBlockTest::testBlockOnPreviousTrapPath',
+      3 => 'BotBlockTest::testCreateDefaultConfig',
+      4 => 'BotBlockTest::testCleanupOldEntriesInline',
+      5 => 'BotBlockTest::testCleanupOldEntries',
+    ),
+    72 => 
+    array (
+      0 => 'BotBlockTest::testNoFalsePositive',
+      1 => 'BotBlockTest::testBlockOnTrapPath',
+      2 => 'BotBlockTest::testBlockOnPreviousTrapPath',
+      3 => 'BotBlockTest::testCreateDefaultConfig',
+      4 => 'BotBlockTest::testCleanupOldEntriesInline',
+      5 => 'BotBlockTest::testCleanupOldEntries',
+    ),
+    76 => 
+    array (
+      0 => 'BotBlockTest::testBlockOnTrapPath',
+      1 => 'BotBlockTest::testBlockOnPreviousTrapPath',
+      2 => 'BotBlockTest::testCreateDefaultConfig',
+      3 => 'BotBlockTest::testCleanupOldEntriesInline',
+      4 => 'BotBlockTest::testCleanupOldEntries',
+    ),
+    77 => 
+    array (
+      0 => 'BotBlockTest::testBlockOnTrapPath',
+      1 => 'BotBlockTest::testBlockOnPreviousTrapPath',
+      2 => 'BotBlockTest::testCreateDefaultConfig',
+      3 => 'BotBlockTest::testCleanupOldEntriesInline',
+      4 => 'BotBlockTest::testCleanupOldEntries',
+    ),
+    81 => 
+    array (
+      0 => 'BotBlockTest::testCreateDefaultConfig',
+    ),
+    82 => 
+    array (
+      0 => 'BotBlockTest::testCreateDefaultConfig',
+    ),
+    86 => 
+    array (
+      0 => 'BotBlockTest::testCleanupOldEntries',
+    ),
+    87 => 
+    array (
+      0 => 'BotBlockTest::testCleanupOldEntries',
+    ),
+    88 => 
+    array (
+      0 => 'BotBlockTest::testCleanupOldEntries',
+    ),
+    89 => 
+    array (
+      0 => 'BotBlockTest::testCleanupOldEntries',
+    ),
+    90 => NULL,
+    91 => 
+    array (
+      0 => 'BotBlockTest::testCleanupOldEntries',
+    ),
+    92 => 
+    array (
+      0 => 'BotBlockTest::testCleanupOldEntries',
+    ),
+    93 => 
+    array (
+      0 => 'BotBlockTest::testCleanupOldEntries',
+    ),
+    94 => 
+    array (
+      0 => 'BotBlockTest::testCleanupOldEntries',
+    ),
+    95 => 
+    array (
+      0 => 'BotBlockTest::testCleanupOldEntries',
+    ),
+    96 => 
+    array (
+      0 => 'BotBlockTest::testCleanupOldEntries',
+    ),
+    98 => 
+    array (
+      0 => 'BotBlockTest::testCleanupOldEntries',
+    ),
+  ),
+  '/home/dicky/projects/batBotBlock/src/BlockTest.php' => 
+  array (
+    17 => 
+    array (
+      0 => 'BotBlockTest::testBlockOnTrapPath',
+      1 => 'BotBlockTest::testBlockOnPreviousTrapPath',
+      2 => 'BotBlockTest::testCleanupOldEntriesInline',
+    ),
+    18 => 
+    array (
+      0 => 'BotBlockTest::testBlockOnTrapPath',
+      1 => 'BotBlockTest::testBlockOnPreviousTrapPath',
+      2 => 'BotBlockTest::testCleanupOldEntriesInline',
+    ),
+  ),
+));
+$coverage->setTests(array (
+  'BotBlockTest::testNoFalsePositive' => 0,
+  'BotBlockTest::testBlockOnTrapPath' => 0,
+  'BotBlockTest::testBlockOnPreviousTrapPath' => 0,
+  'BotBlockTest::testCreateDefaultConfig' => 0,
+  'BotBlockTest::testCleanupOldEntriesInline' => 0,
+  'BotBlockTest::testCleanupOldEntries' => 0,
+));
+
+$filter = $coverage->filter();
+$filter->setBlacklistedFiles(array (
+));
+$filter->setWhitelistedFiles(array (
+  '/home/dicky/projects/batBotBlock/src/BotBlock.php' => true,
+  '/home/dicky/projects/batBotBlock/src/BlockTest.php' => true,
+));
+
+return $coverage;

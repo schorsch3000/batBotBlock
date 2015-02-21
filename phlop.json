@@ -1,0 +1,44 @@
+{
+  "clean": [
+    [
+      "clear",
+      {"delDirs": ["build","dist","vendor","cache.properties"]}
+    ]
+  ],
+  "default": [
+    ["clear"],
+    [
+      "composer",
+      "updateOrInstall"
+    ],
+    "lint",
+    "loc",
+    [
+      "sh",
+      {
+        "command": "codecept",
+        "args": [
+          "run",
+          "unit",
+          "--xml",
+          "--html",
+          "--coverage",
+          "--coverage-html"
+        ]
+      }
+    ],
+    "pdepend",
+    "phpcpd",
+    "phpcs",
+    "phpmd",
+    "phpdox"
+  ],
+  "build": [
+    "build",
+    [
+      "pack",
+      {"type": "tgz"}
+    ],
+    "Upload"
+  ]
+}
